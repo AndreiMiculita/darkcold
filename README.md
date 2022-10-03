@@ -111,7 +111,7 @@ To use the theme follow these simple steps.
    ```
 2. Put it in your `~/.themes` directory
    ```sh
-   mv darkcold ~./themes
+   mv darkcold ~/.themes
    ```
 3. Activate it as a theme from your DE's settings.
 
