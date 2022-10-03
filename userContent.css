@@ -28,7 +28,7 @@
  * marquee { -moz-binding: none; }
  *
  */
- 
+
 /* 
  * For more examples see http://www.mozilla.org/unix/customizing.html
  */
@@ -42,15 +42,15 @@ input {
 textarea {
 	border: 2px inset white;
 	background-color: white;
-	color: #007AC3 ;
+	color: #007AC3;
 }
 
 select {
 	border: 2px inset white;
 	background-color: white;
-	color: #007AC3 ;
+	color: #007AC3;
 }
- 
+
 input[type="radio"],
 input[type="checkbox"] {
 	border: 2px inset white ! important;
@@ -62,12 +62,10 @@ input[type="checkbox"] {
 	background-color: white;
 }
 
-button, 
+button,
 input[type="reset"],
 input[type="button"],
-input[type="submit"] { 
-    background-color: #eeeeee;
-    color: #007AC3 ;
+input[type="submit"] {
+	background-color: #eeeeee;
+	color: #007AC3;
 }
-
-
