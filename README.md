@@ -1,14 +1,4 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -37,11 +27,6 @@
   <p align="center">
     DarkCold is a very y2k theme.
     <br />
-    <a href="https://github.com/AndreiMiculita/darkcold"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/AndreiMiculita/darkcold">View Demo</a>
-    ·
     <a href="https://github.com/AndreiMiculita/darkcold/issues">Report Bug</a>
     ·
     <a href="https://github.com/AndreiMiculita/darkcold/issues">Request Feature</a>
@@ -81,15 +66,20 @@
 
 [![Product Name Screen Shot][product-screenshot1]](https://example.com)
 
-DarkCold is a very y2k theme. Also on Gnome-look.org (but outdated):
-http://gnome-look.org/content/show.php/DarkCold?content=143165
+DarkCold is a very y2k theme.
+It's glossy, skeuomorphic and has a lot of gradients.
+If you like the 2000s, you'll love this.
+It's a reaction to the flat, minimalistic and boring themes that are popular today.
+Enjoy!
+
+Also on Gnome-look.org (but outdated): [link](http://gnome-look.org/content/show.php/DarkCold?content=143165)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
-* [![CSS][CSS]][CSS]
+[![CSS][CSS]][CSS]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,9 +106,19 @@ To use the theme follow these simple steps.
 3. Activate it as a theme from your DE's settings.
 
 For the Firefox theme:
-```
-    userContent.css -> ~/.mozilla/firefox/<bla_bla>/chrome 
-```
+1. Find your Firefox profile directory:
+   ```sh
+   firefox --profilemanager
+   ```
+   You can find it by hovering over the profile name in the profile manager. It should be something like `~/.mozilla/firefox/xxxxxxxx.default-release`. You can also find it by going to `about:support` in Firefox.
+2. Make a `chrome` directory in your profile directory if it doesn't exist.
+   ```sh
+   mkdir ~/.mozilla/firefox/xxxxxxxx/chrome
+   ```
+3. Copy the `userContent.css` file to the `chrome` directory.
+   ```sh
+   cp userContent.css ~/.mozilla/firefox/xxxxxxxx/chrome
+   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -150,7 +150,7 @@ Contributions are what make the open source community such an amazing place to l
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
 
-1. Fork the project & clone it
+1. Fork the project & clone it locally
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
@@ -179,7 +179,8 @@ Project Link: [https://github.com/AndreiMiculita/darkcold](https://github.com/An
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-* [OriginalSeed](https://github.com/originalseed) - the person who started this theme and has done 99% of the work.
+* [OriginalSeed](https://github.com/originalseed) - the person who started this theme and has done most of the work.
+* Rob Louw, who made the window decorations ([Royale VSQ Black](https://www.gnome-look.org/p/1007298/)).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
