@@ -68,9 +68,6 @@
 
 DarkCold is a very y2k theme.
 It's glossy, skeuomorphic and has a lot of gradients.
-If you like the 2000s, you'll love this.
-It's a reaction to the flat, minimalistic and boring themes that are popular today.
-Enjoy!
 
 Also on Gnome-look.org (but outdated): [link](http://gnome-look.org/content/show.php/DarkCold?content=143165)
 
@@ -102,6 +99,10 @@ To use the theme follow these simple steps.
 2. Put it in your `~/.themes` directory
    ```sh
    mv darkcold ~/.themes
+   ```
+   2.a. Optionally, delete the `darkcold/.git` directory to save space.
+   ```
+   rm -rf darkcold/.git
    ```
 3. Activate it as a theme from your DE's settings.
 
@@ -138,6 +139,15 @@ Some more screenshots:
 There's no roadmap at the moment.
 
 See the [open issues](https://github.com/AndreiMiculita/darkcold/issues) for a full list of proposed features (and known issues).
+
+This was forked because the original maintainer is inactive, and PRs are not being merged.
+
+Notable changes from the original:
+* Add distinct unmaximize button for Metacity (the original theme had the same button for maximize and unmaximize)
+* Format css files (still not fully formatted)
+* This project also includes the [Cinnamon theme](https://github.com/originalseed/darkcold-cinnamon/), including a PR that was left unmerged there. The following changes were made to the Cinnamon theme:
+  * Add padding to window list item box
+  * Fix applet hover so box and text light up together
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
