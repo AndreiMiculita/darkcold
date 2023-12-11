@@ -76,7 +76,9 @@ StScrollBar StButton#vhandle:hover {
  * ===================================================================*/
 .panel-top {}
 
-.panel-bottom {}
+.panel-bottom {
+    background-blur: 10px
+}
 
 /* ===================================================================
  * Shared button properties 	
@@ -1493,6 +1495,7 @@ StScrollBar StButton#vhandle:hover {
     color: #6EBEFE;
     border-radius: 0;
     border-color: transparent;
+    background-blur: 10px
 }
 
 /* Main menu title */
